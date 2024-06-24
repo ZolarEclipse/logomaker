@@ -34,7 +34,16 @@ const questions = [
             }
         ])
         .then((res) => {
-            writeToFile("./examples/logo.svg", shapes.renderLogo(res));
+
+            var data= `<svg width="300" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            ${shapes.renderLogo(res)}
+
+            <text x="150" y="120" font-size="60" text-anchor="middle" fill="${res.textColor}">${res.logoText}</text>
+
+            </svg>`
+            writeToFile("./examples/logo.svg", data);
+
+            
         }
         )
 ]
