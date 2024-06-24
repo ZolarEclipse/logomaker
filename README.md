@@ -1,3 +1,10 @@
+![Alt text](logoExample.png)
+
+![Alt text](Prompts.png)
+
+
+https://www.youtube.com/watch?v=MKMArF1I7gc
+
 User Story
 AS a freelance web developer
 I WANT to generate a simple logo for my projects
